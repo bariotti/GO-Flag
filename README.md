@@ -10,15 +10,22 @@ logType - tipo do LOG - valor default: ERRO - tipo do log a ser procurado no arq
 
 Somente a fim de exemplificar o uso da biblioteca FLAG, o arquivo de LOG utilizado tem um padrão de 1 registro por linha, no formato [data] - [tipo do log] - [mensagem]
 Exemplo:
+
 2022-02-22 - SUCESSO - Arquivo lido com sucesso
+
 2022-02-22 - ERRO - Não foi possivel ler um arquivo
 
 Exemplo de como executar a aplicação passando parametros:
 
-lerlogs.exe\n
+lerlogs.exe
+
 lerlogs.exe -logType SUCESSO
+
 lerlogs.exe -logType ERRO
+
 lerlogs.exe -logType SUCESSO -path 
+
 lerlogs.exe -path C:\Logs\myapp.log
+
 lerlogs.exe -path C:\Logs\myapp.log -logType SUCESSO
 
