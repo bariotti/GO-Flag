@@ -15,7 +15,7 @@ Exemplo:
 
 Exemplo de como executar a aplicação passando parametros:
 
-lerlogs.exe
+lerlogs.exe\n
 lerlogs.exe -logType SUCESSO
 lerlogs.exe -logType ERRO
 lerlogs.exe -logType SUCESSO -path 
